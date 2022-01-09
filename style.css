@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body {
+    background-color: lightseagreen;
+}
+#main {
+    width: 60%;
+    height: 560px;
+    background-color: #eee;
+    margin: auto;
+    border: double;
+    border-radius: 3%;
+    padding: 6px;
+}
+h1 {
+    font-family: 'Creepster', cursive;
+    color: rgb(216, 3, 3);
+    font-size: 50px;
+}
+#rovnatko {
+    width: 50%;
+    margin: auto;
+}
+button {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid;
+}
+button:hover {
+    background-color: lightgreen;
+    border: 1px solid;
+}
+.start:hover {
+    background-color: lime;
+}
+.about:hover {
+    background-color: yellow;
+}
+.end:hover {
+    background-color: rgb(255, 30, 30);
+}
+p, h2, h3, code, cite, i, s, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: blue;
+}
+a:hover {
+    background-color: rgba(179, 0, 179, 0.507);
+}
